@@ -1,0 +1,14 @@
+
+[Auth]
+max_sessions = 5
+max_login_failed_attempts = 3
+max_login_sessions = 3
+time_between_attempts_seconds = 60
+ban_time_after_failed_minutes = 180
+access_token_life_time_seconds = 3600
+refresh_token_life_time_days = 10
+
+[Logger]
+file_level = "debug"
+stdout_level = "debug"
+tortoise_level = "debug"

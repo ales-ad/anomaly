@@ -1,0 +1,14 @@
+.idea
+.env
+/env
+/venv
+__pycache__
+firebase.json
+
+.python-version
+
+compose-dev.yaml
+run_docker.bat
+.env.sh
+logs
+dumps
